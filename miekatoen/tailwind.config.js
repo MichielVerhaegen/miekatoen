@@ -11,7 +11,7 @@ module.exports = {
         DEFAULT:'#e3e2df'
       },
       bordeau:{
-        default:'#5d001e'
+        DEFAULT:'#5d001e'
       }
     }
   },

@@ -1,7 +1,7 @@
 export function Homepage(){
 return(
   <body className="bg-cream ">
-    <article className="max-w-full p-4">
+    <article className="p-4 bg-bordeau">
       <h1>
         Poppen met een verhaal van Atelier Miekatoen
       </h1>
