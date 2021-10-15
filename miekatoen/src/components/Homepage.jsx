@@ -1,4 +1,4 @@
-
+import Logo from './img/logo.png'
 export function Homepage(){
 return(
   <body className="bg-cream flex">
@@ -6,7 +6,7 @@ return(
       <h1>
         Poppen met een verhaal van Atelier Miekatoen
       </h1>
-      <img src="/img/logo.png" alt="image of dolls" />
+      <img src={Logo} alt="image of dolls" />
       <p></p>
     </article>
   </body>
