@@ -7,9 +7,7 @@ import React from 'react'
 //import { homepageData } from './components/mockdata';
 
 function App() {
-  function rendernav(){
-    render(<NavBar />, document.getElementById('rootnav') );
-  }
+ 
   return (
     <div className="App">
       {rendernav()}
@@ -20,6 +18,9 @@ function App() {
   );
   
   
+}
+function rendernav(){
+  render(<NavBar />, document.getElementById('rootnav') );
 }
 
 export default App;
