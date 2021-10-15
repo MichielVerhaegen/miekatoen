@@ -9,6 +9,9 @@ module.exports = {
       },
       cream:{
         DEFAULT:'#e3e2df'
+      },
+      bordeau:{
+        default:'#5d001e'
       }
     }
   },
