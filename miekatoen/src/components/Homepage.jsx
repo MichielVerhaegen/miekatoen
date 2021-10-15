@@ -1,9 +1,8 @@
 import Logo from './img/logo.png'
-import Homepagebanner from './img/homepagebanner.jpg'
 import { Article } from './Article'
 const article={
   titel:'Poppen met een verhaal van Miekatoen',
-  imgurl:"./img/homepagebanner.jpg",
+  imgurl:'./img/homepagebanner.jpg',
   description:""
 };
 export function Homepage(){
