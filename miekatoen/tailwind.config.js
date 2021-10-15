@@ -5,6 +5,9 @@ module.exports = {
     extend: {},
     roze:{
       DEFAULT: '#e3afbc'
+    },
+    cream:{
+      DEFAULT:'#e3e2df'
     }
   },
   variants: {
