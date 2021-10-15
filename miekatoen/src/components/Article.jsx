@@ -4,14 +4,17 @@ export function Article(article){
 
  
 return(
-  <article className="p-8 border-2 border-b-4 border-bordeau max-w-full m-4 rounded-xl bg-roze">
+  <article className="p-8 border-2 border-b-4 border-bordeau max-w-full m-4 rounded-xl bg-roze max-h-auto">
   <h1 className=" text-bordeau text-xl font-bold">
    {article.titel}
-  </h1>  
-  <img src={require(`${article.imgurl}`).default} alt="image of dolls" className='max-w-sm rotate-90 h-1/2 w-full object-cover '/>
-   
+  </h1>
+  
+  
+  <img src={require(`${article.imgurl}`).default} alt="image of dolls" className='w-full rotate-90 max-h-52 object-cover rounded-xl mb-4'/>
+  <p className="text-bordeau border-2 border-b-4 border-bordeau bg-cream rounded-xl">{article.description}</p>
 
-  <p>{article.description}</p>
+  
+  
 </article>
 )
 
