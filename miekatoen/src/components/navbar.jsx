@@ -1,6 +1,6 @@
 export function NavBar(){
   return(
-    <nav className="bg-">
+    <nav className="bg-roze">
       
     </nav>
   )
