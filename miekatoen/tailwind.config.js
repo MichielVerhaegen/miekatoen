@@ -3,11 +3,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
-    roze:{
-      DEFAULT: '#e3afbc'
-    },
-    cream:{
-      DEFAULT:'#e3e2df'
+    colors: {
+      roze:{
+        DEFAULT: '#e3afbc'
+      },
+      cream:{
+        DEFAULT:'#e3e2df'
+      }
     }
   },
   variants: {
