@@ -11,7 +11,7 @@ return(
   
   
   <img src={require(`${article.imgurl}`).default} alt="image of dolls" className='w-full rotate-90 max-h-52 object-cover rounded-xl mb-4'/>
-  <p className="text-bordeau border-2 border-b-4 border-bordeau bg-cream rounded-xl">{article.description}</p>
+  <p className="text-bordeau border-2 border-b-4 border-bordeau bg-cream rounded-xl p-1">{article.description}</p>
 
   
   
