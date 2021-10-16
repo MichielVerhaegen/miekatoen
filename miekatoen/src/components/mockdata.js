@@ -13,6 +13,12 @@ const poppenData=[{
   description:'Op de valreep, de laatste dag van het jaar. Maak kennis met vrolijke Bo.  Bo betekent knap. Bo is 5 jaar. Bo is jarig op 31 december. Bo is een pop met een verhaal.  Bo is dol op macaroni met kaas. Bo liep in een bos vol schreeuw vogels, daarna kon ze bijna niets meer horen. Bo houdt niet van worteltjes. Bo heeft een superkracht: Taartjes bakken.',
   imgurl:'./img/bo.jpg'
   
+},{titel:'li',
+description:'Op de valreep, de laatste dag van het jaar. Maak kennis met vrolijke Bo.  Bo betekent knap. Bo is 5 jaar. Bo is jarig op 31 december. Bo is een pop met een verhaal.  Bo is dol op macaroni met kaas. Bo liep in een bos vol schreeuw vogels, daarna kon ze bijna niets meer horen. Bo houdt niet van worteltjes. Bo heeft een superkracht: Taartjes bakken.',
+imgurl:'./img/li.jpg'
+},{titel:'renee',
+description:'Op de valreep, de laatste dag van het jaar. Maak kennis met vrolijke Bo.  Bo betekent knap. Bo is 5 jaar. Bo is jarig op 31 december. Bo is een pop met een verhaal.  Bo is dol op macaroni met kaas. Bo liep in een bos vol schreeuw vogels, daarna kon ze bijna niets meer horen. Bo houdt niet van worteltjes. Bo heeft een superkracht: Taartjes bakken.',
+imgurl:'./img/renee.jpg'
 }]
 
 export{homepageData,poppenData};
