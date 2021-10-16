@@ -1,9 +1,11 @@
+import { NavBar } from "./navbar"
 export function PoppenPage() {
     return(
 
-      <div>
-  test
+      <>
+      <NavBar />
+      test
 
-      </div>
+      </>
     )
 }
