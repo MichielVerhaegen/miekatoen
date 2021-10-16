@@ -25,8 +25,13 @@ export function PoppenPage34() {
   return(
 
     <>    
-    <NavBar /><div className="grid lg:grid-cols-3 md:grid-cols-2">
+    <NavBar />
+    <div className="grid lg:grid-cols-3">
       <Displaycategorien />
+      </div>
+    
+    <div className="grid lg:grid-cols-3 md:grid-cols-2">
+    
     {poppenData34.map(el => <Article {...el}/>)}
    </div>
    
@@ -38,8 +43,12 @@ export function PoppenPage4Plus(){
   return(
 
     <>    
-    <NavBar /><div className="grid lg:grid-cols-3 md:grid-cols-2">
+    <NavBar />
+    <div className="grid lg:grid-cols-3">
       <Displaycategorien />
+      </div>
+    <div className="grid lg:grid-cols-3 md:grid-cols-2">
+    
     {poppenData4Plus.map(el => <Article {...el}/>)}
    </div>
    
