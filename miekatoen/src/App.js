@@ -12,7 +12,8 @@ import {
   Switch,
   Redirect
 } from 'react-router-dom';
-import { PoppenPage } from './components/poppenPage';
+import { PoppenPagej3,PoppenPage34,PoppenPage4Plus } from './components/poppenPage';
+import { CategoriePage } from './components/categoriePage';
 //import { homepageData } from './components/mockdata';
 
 function App() {
@@ -21,7 +22,10 @@ function App() {
     <div className="App">
        <Switch>
             <Route exact path="/" component={Homepage} />
-            <Route path="/Poppen" component={PoppenPage} />
+            <Route path="/categorie" component={CategoriePage} />
+            <Route path="/poppenjonger3" component={PoppenPagej3} />
+            <Route path="/poppen34" component={PoppenPage34} />
+            <Route path="/poppen4plus" component={PoppenPage4Plus} />
             <Route path="/About" component={AboutPage} />
             <Route path="/Contact" component={ContactPage} />
           </Switch> 
