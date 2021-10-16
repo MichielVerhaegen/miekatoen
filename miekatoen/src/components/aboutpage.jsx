@@ -1,7 +1,9 @@
+import { NavBar } from "./navbar"
 export function AboutPage(){
   return(
-    <div>
+    <>
+    <NavBar />
       test about
-    </div>
+    </>
   )
 }
