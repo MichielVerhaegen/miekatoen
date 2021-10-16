@@ -1,7 +1,7 @@
 export function AboutPage(){
   return(
     <div>
-      test123
+      test about
     </div>
   )
 }
