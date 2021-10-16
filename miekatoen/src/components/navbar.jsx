@@ -4,18 +4,19 @@ import React from 'react';
 import {render} from 'react-dom';
 import { PoppenPage } from './poppenPage';
 import { homepageData } from './mockdata';
+import {Link} from 'react-router-dom'
+import { Router } from 'react-router';
 export function NavBar(){
-  render(<Homepage {...homepageData}/>, document.getElementById('root'));
-
+  
   return(
     
     <nav className="bg-roze flex inline-block border-b-4 border-bordeau">
       <img src={Logo} alt="Logo" className="object-contain w-20 m-2"></img>
       <div className="text-3xl text-bordeau my-auto ">
-        <button  className="px-10 border-r-2 border-bordeau" onClick={loadHomePage} >Home</button>
-        <button className="px-10 border-r-2 border-bordeau" onClick={loadpoppen}>Poppen</button> 
-        <button className="px-10 border-r-2 border-bordeau">About</button>
-        <button className="px-10 ">Contact </button>
+        <Link to ="/"  className="px-10 border-r-2 border-bordeau">Home</Link>
+        <Link to ="/Poppen" className="px-10 border-r-2 border-bordeau">Poppen</Link> 
+        <Link to ="About" className="px-10 border-r-2 border-bordeau">About</Link>
+        <Link to ="/Contact" className="px-10 ">Contact </Link>
       </div>
 
     </nav>
@@ -23,12 +24,5 @@ export function NavBar(){
 
 }
 
-const loadpoppen = function (){
-  render(<PoppenPage />,document.getElementById('root'))
-}
-const loadHomePage = function (){
-  
-  render(<Homepage {...homepageData}/>, document.getElementById('root'));
-}
 
 
