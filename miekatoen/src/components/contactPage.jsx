@@ -1,7 +1,9 @@
+import { NavBar } from "./navbar"
 export function ContactPage(){
-  return(
-    <div>
+  return( 
+    <>
+      <NavBar />
       test Contact
-    </div>
+    </>
   )
 }
