@@ -13,7 +13,12 @@ module.exports = {
       bordeau:{
         DEFAULT:'#5d001e'
       }
-    }
+    },
+    backgroundImage: {
+      'j3': "url('./components/img/li.jpg')",
+      '34': "url('./components/img/bo.jpg')",
+      '4plus': "url('./components/img/renee.jpg')",
+     }
   },
   variants: {
     extend: {},

@@ -8,7 +8,12 @@ export function PoppenPagej3() {
 
       <>
       
-      <NavBar /><div className="grid lg:grid-cols-3 md:grid-cols-2">
+      <NavBar />
+      <div className="grid lg:grid-cols-3">
+      <Displaycategorien />
+      </div>
+      <div className="grid lg:grid-cols-3 md:grid-cols-2">
+      
       {poppenDataj3.map(el => <Article {...el}/>)}
      </div>
      

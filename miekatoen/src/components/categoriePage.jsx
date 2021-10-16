@@ -10,7 +10,7 @@ export function CategoriePage(){
   return(
     <>
     <NavBar />
-    <div className="grid" id="root"> 
+    <div className="grid lg:grid-cols-3" id="root"> 
     <Displaycategorien />
     </div>
     </>
