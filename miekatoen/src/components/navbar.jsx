@@ -1,13 +1,8 @@
 import Logo from './img/logo-white.png'
-import { Homepage } from './Homepage';
 import React from 'react';
-import {render} from 'react-dom';
-import { PoppenPage } from './poppenPage';
-import { homepageData } from './mockdata';
 import {Link} from 'react-router-dom'
-import { Router } from 'react-router';
 import { GoThreeBars } from 'react-icons/go';
-import { dropDownMenu } from './dropDownMenu';
+
 
 export function NavBar(){
 
