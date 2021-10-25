@@ -6,7 +6,6 @@ import { homepageData } from './mockdata'
 export function Homepage(prop){
 return(
   <>
-  <NavBar/>
   <Article {...homepageData}/>
   </>
   

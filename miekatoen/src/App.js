@@ -5,21 +5,38 @@ import { AboutPage} from './components/aboutpage'
 import { ContactPage} from './components/contactPage'
 import './App.css';
 import {render} from 'react-dom';
-import React from 'react'
-import {
-  Route,
-  Link,
-  Switch,
-  Redirect
-} from 'react-router-dom';
+import React, {useState, useEffect} from 'react';
+import {Route,Link,Switch, Redirect} from 'react-router-dom';
 import { PoppenPagej3,PoppenPage34,PoppenPage4Plus } from './components/poppenPage';
 import { CategoriePage } from './components/categoriePage';
+import DropDownMenu from './components/DropDownMenu';
 //import { homepageData } from './components/mockdata';
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const openToggle = () => {
+    setIsOpen(!isOpen)
+  };
+
+  useEffect(() => {
+    const hideMenu = () => {
+      if (window.innerWidth > 1024 && isOpen) {
+        setIsOpen(false)
+      }
+    };
+    window.addEventListener('verberg', hideMenu);
+
+    return() => {
+      window.removeEventListener('verberg', hideMenu);
+    }
+  });
  
   return (
     <div className="App">
+      <NavBar openToggle={openToggle}/>
+      <DropDownMenu isOpen={isOpen} openToggle={openToggle}/>
+
        <Switch>
             <Route exact path="/" component={Homepage} />
             <Route path="/categorie" component={CategoriePage} />

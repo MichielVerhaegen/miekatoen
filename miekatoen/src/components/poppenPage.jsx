@@ -7,8 +7,7 @@ export function PoppenPagej3() {
     return(
 
       <>
-      
-      <NavBar />
+    
       <div className="grid lg:grid-cols-3">
       <Displaycategorien />
       </div>

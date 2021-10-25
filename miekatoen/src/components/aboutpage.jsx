@@ -4,7 +4,6 @@ import { Article } from "./Article"
 export function AboutPage(){
   return(
     <>
-    <NavBar />
       <div>
         {aboutData.map(el=><Article {...el}/>)}
       </div>

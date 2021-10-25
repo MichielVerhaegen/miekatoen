@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 import { GoThreeBars } from 'react-icons/go';
 
 
-export function NavBar(){
+export function NavBar({openToggle}){
 
   return(
     
@@ -18,8 +18,10 @@ export function NavBar(){
             <Link to ="/Contact" className="px-10 ">Contact </Link>
           </div>
           
-        </div>
-          <svg id='menu' viewBox="0 0 15 15" width="45" height="45" className="box lg:hidden inline-block my-auto fill-current text-bordeau"><GoThreeBars/></svg>
+          <div className="grid lg:hidden flex justify-end my-auto" >
+                    <svg id="menu" viewBox="0 0 15 15" width="45" height="45" onClick={openToggle}><GoThreeBars/></svg>
+            </div>
+          </div>
       </nav>
 
       
