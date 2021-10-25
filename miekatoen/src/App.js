@@ -13,7 +13,7 @@ import DropDownMenu from './components/DropDownMenu';
 //import { homepageData } from './components/mockdata';
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   const openToggle = () => {
     setIsOpen(!isOpen)
@@ -21,14 +21,15 @@ function App() {
 
   useEffect(() => {
     const hideMenu = () => {
-      if (window.innerWidth > 1024 && isOpen) {
+      if (window.innerWidth >= 1024 && isOpen) {
         setIsOpen(false)
-      }
+      };
     };
-    window.addEventListener('verberg', hideMenu);
+
+    window.addEventListener('resize', hideMenu);
 
     return() => {
-      window.removeEventListener('verberg', hideMenu);
+      window.removeEventListener('resize', hideMenu);
     }
   });
  
