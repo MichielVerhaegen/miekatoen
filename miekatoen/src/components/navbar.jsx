@@ -8,8 +8,7 @@ export function NavBar({openToggle}){
 
   return(
     
-    <nav className="bg-roze flex inline-block justify-between border-b-4 border-bordeau px-5">
-        <div className="flex">
+    <div className="bg-roze border-b-4 border-bordeau px-5 flex">
           <img src={Logo} alt="Logo" className="object-contain w-20 my-2"></img>
           <div className="hidden lg:block text-3xl text-bordeau my-auto ">
             <Link to ="/"  className="px-10 border-r-2 border-bordeau">Home</Link>
@@ -18,11 +17,10 @@ export function NavBar({openToggle}){
             <Link to ="/Contact" className="px-10 ">Contact </Link>
           </div>
           
-          <div className="grid lg:hidden flex justify-end my-auto" >
-                    <svg id="menu" viewBox="0 0 15 15" width="45" height="45" onClick={openToggle}><GoThreeBars/></svg>
+          <div className="block lg:hidden my-auto flex justify-end" >
+                    <svg id="menu" viewBox="0 0 15 15" width="45" height="45" onClick={openToggle} className="fill-current text-bordeau"><GoThreeBars/></svg>
             </div>
-          </div>
-      </nav>
+      </div>
 
       
   )
