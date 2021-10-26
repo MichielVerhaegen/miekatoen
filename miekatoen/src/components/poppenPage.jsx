@@ -24,7 +24,6 @@ export function PoppenPage34() {
   return(
 
     <>    
-    <NavBar />
     <div className="grid lg:grid-cols-3">
       <Displaycategorien />
       </div>
@@ -42,7 +41,6 @@ export function PoppenPage4Plus(){
   return(
 
     <>    
-    <NavBar />
     <div className="grid lg:grid-cols-3">
       <Displaycategorien />
       </div>
