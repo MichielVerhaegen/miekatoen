@@ -13,7 +13,7 @@ export function NavBar({openToggle}){
           <div className="hidden lg:block text-3xl text-bordeau my-auto ">
             <Link to ="/"  className="px-10 border-r-2 border-bordeau">Home</Link>
             <Link to ="/Categorie" className="px-10 border-r-2 border-bordeau">Poppen</Link> 
-            <Link to ="/About" className="px-10 border-r-2 border-bordeau">About</Link>
+            <Link to ="/Visie" className="px-10 border-r-2 border-bordeau">Visie</Link>
             <Link to ="/Contact" className="px-10 ">Contact </Link>
           </div>
           

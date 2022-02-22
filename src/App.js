@@ -44,7 +44,7 @@ function App() {
             <Route path="/poppenjonger3" component={PoppenPagej3} />
             <Route path="/poppen34" component={PoppenPage34} />
             <Route path="/poppen4plus" component={PoppenPage4Plus} />
-            <Route path="/About" component={AboutPage} />
+            <Route path="/Visie" component={AboutPage} />
             <Route path="/Contact" component={ContactPage} />
           </Switch> 
     </div>
