@@ -1,4 +1,3 @@
-import { NavBar } from "./navbar"
 import { poppenDataj3,poppenData34,poppenData4Plus } from "./mockdata"
 import { Article } from "./Article"
 import { Displaycategorien } from "./categorien"

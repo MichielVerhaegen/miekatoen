@@ -1,4 +1,4 @@
-import { NavBar } from "./navbar";
+
 import { Displaycategorien } from "./categorien";
 
 

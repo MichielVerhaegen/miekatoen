@@ -1,16 +1,16 @@
 import { NavBar } from './components/navbar';
 import { Homepage } from './components/Homepage';
-import { Footer } from './components/footer';
+
 import { AboutPage} from './components/aboutpage'
 import { ContactPage} from './components/contactPage'
 import './App.css';
-import {render} from 'react-dom';
+
 import React, {useState, useEffect} from 'react';
-import {Route,Link,Switch, Redirect} from 'react-router-dom';
+import {Route,Switch} from 'react-router-dom';
 import { PoppenPagej3,PoppenPage34,PoppenPage4Plus } from './components/poppenPage';
 import { CategoriePage } from './components/categoriePage';
-import DropDownMenu from './components/DropDownMenu';
-//import { homepageData } from './components/mockdata';
+import DropDownMenu from './components/dropDownMenu.jsx'
+//imporDropDownMenu from './components/DropDownMenu';t { homepageData } from './components/mockdata';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);

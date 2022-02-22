@@ -10,7 +10,7 @@ return(
   </h1>
   
   
-  <img src={require(`${article.imgurl}`).default} alt="image of dolls" className='w-full h-52 object-cover rounded-xl mb-4'/>
+  <img src={require(`${article.imgurl}`).default} alt="dolls" className='w-full h-52 object-cover rounded-xl mb-4'/>
   <p className="text-bordeau border-2 border-b-4 border-bordeau bg-cream rounded-xl p-1">{article.description}</p>
 
   
