@@ -22,21 +22,18 @@ imgurl:'./img/renee.jpg'
 }]
 
 const poppenData02=[{
-  titel:'Samj3',
-  description:'Motorische beperking',
-  imgurl:'./img/sam.jpg'
+  titel:'Baby pop 1',
+  description:'Zorg pop',
+  imgurl:'./img/0-2jaar/model1.jpg'
 },{
-  titel:'Boj3',
-  description:'auditieve beperking',
-  imgurl:'./img/bo.jpg'
+  titel:'Baby pop 2',
+  description:'Zorg pop',
+  imgurl:'./img/0-2jaar/model2-1.jpg'
   
-},{titel:'lij3',
-description:'Hoogsensitief',
-imgurl:'./img/li.jpg'
-},{titel:'reneej3',
-description:'visuele beperking',
-imgurl:'./img/renee.jpg'
-}]
+},{titel:'Modellen',
+description:'De 4 actuele modellen',
+imgurl:'./img/0-2jaar/modelsamen1.jpg'
+},]
 const poppenData4Plus=[{
   titel:'Sam4+',
   description:'Motorische beperking',

@@ -17,7 +17,7 @@ export function NavBar({openToggle}){
             <Link to ="/Contact" className="px-10 ">Contact </Link>
           </div>
           
-          <div className="block lg:hidden my-auto flex justify-end" >
+          <div className="block lg:hidden my-auto  justify-end" >
                     <svg id="menu" viewBox="0 0 15 15" width="45" height="45" onClick={openToggle} className="fill-current text-bordeau"><GoThreeBars/></svg>
             </div>
       </div>
