@@ -6,20 +6,14 @@ const homepageData = {
 
 const poppenData23=[{
   titel:'Alex',
-  description:'Motorische beperking',
-  imgurl:'./img/sam.jpg'
+  description:'Zorg pop',
+  imgurl:'./img/2-3jaar/Alex/4.jpg'
 },{
-  titel:'Bo',
-  description:'auditieve beperking',
-  imgurl:'./img/bo.jpg'
+  titel:'Merlijn',
+  description:'Zorg pop',
+  imgurl:'./img/2-3jaar/Merlijn/IMG_20211124_161952.jpg'
   
-},{titel:'li',
-description:'Hoogsensitief',
-imgurl:'./img/li.jpg'
-},{titel:'renee',
-description:'visuele beperking',
-imgurl:'./img/renee.jpg'
-}]
+},]
 
 const poppenData02=[{
   titel:'Baby pop 1',
@@ -35,23 +29,86 @@ description:'De 4 actuele modellen',
 imgurl:'./img/0-2jaar/modelsamen1.jpg'
 },]
 const poppenData4Plus=[{
-  titel:'Sam4+',
-  description:'Motorische beperking',
-  imgurl:'./img/sam.jpg'
+  titel:'Aster',
+  description:'Pigmentvlekken',
+  imgurl:'./img/4plus/Aster/IMG-20210209-WA0011.jpg'
 },{
-  titel:'Bo4+',
-  description:'auditieve beperking',
-  imgurl:'./img/bo.jpg'
+  titel:'Bo',
+  description:'Cochleair implantaat',
+  imgurl:'./img/4plus/Bo/1.jpg'
   
-},{titel:'li4+',
-description:'Hoogsensitief',
-imgurl:'./img/li.jpg'
+},{titel:'Jules',
+description:'Pigmentvlekken',
+imgurl:'./img/4plus/Jules/1.jpg'
 },
-{
-  titel:'renee4+',
-description:'visuele beperking',
-imgurl:'./img/renee.jpg'
-}]
+{titel:'Kai',
+description:'Motorische beperking',
+imgurl:'./img/4plus/kai/1.jpg'
+},
+{titel:'Li',
+description:'Hoog sensitief',
+imgurl:'./img/4plus/li/1.jpg'
+},{titel:'Lian',
+description:'Cochleair implantaat',
+imgurl:'./img/4plus/lian/1.jpg'
+},{titel:'Liesje',
+description:'Zorg pop',
+imgurl:'./img/4plus/Liesje/1.jpg'
+},{titel:'Maud',
+description:'Brandwonden',
+imgurl:'./img/4plus/Maud/1.jpg'
+},{titel:'Max',
+description:'Zorg Pop',
+imgurl:'./img/4plus/Max/1.jpg'
+},{titel:'Meron',
+description:'Downsyndroom',
+imgurl:'./img/4plus/Meron/1.jpg'
+},{titel:'Nicky',
+description:'Slechtziend',
+imgurl:'./img/4plus/Nicky/1.jpg'
+},{titel:'Noa',
+description:'Leerstoornis',
+imgurl:'./img/4plus/Noa/1.jpg'
+},{titel:'Pom',
+description:'Motorische beperking',
+imgurl:'./img/4plus/Pom/1.jpg'
+},{titel:'Renée',
+description:'Blind',
+imgurl:'./img/4plus/Renée/1.jpg'
+},{titel:'Sam',
+description:'Motorische beperking',
+imgurl:'./img/4plus/sam/1.jpg'
+},{titel:'Sasha',
+description:'Downsyndroom',
+imgurl:'./img/4plus/Sasha/1.jpg'
+},{titel:'Sil',
+description:'Hart afwijking',
+imgurl:'./img/4plus/Sil/1.jpg'
+},{titel:'Sina',
+description:'Pigment vlekken',
+imgurl:'./img/4plus/Sina/1.jpg'
+},{titel:'Stella',
+description:'Zorg pop',
+imgurl:'./img/4plus/stella/1.jpg'
+},{titel:'Stin',
+description:'Blind',
+imgurl:'./img/4plus/Stin/1.jpg'
+},{titel:'Tali',
+description:'Motorische beperking',
+imgurl:'./img/4plus/Tali/1.jpg'
+},{titel:'To',
+description:'Downsyndroom',
+imgurl:'./img/4plus/To/1.jpg'
+},{titel:'Ama',
+description:'Diversiteit',
+imgurl:'./img/4plus/Ama/1.jpg'
+},{titel:'Ada',
+description:'Gender Identiteit',
+imgurl:'./img/4plus/Ada/1.jpg'
+},{titel:'Jitse',
+description:'Schisis',
+imgurl:'./img/4plus/Jitse/1.jpg'
+},]
 
 const aboutData=[{
   titel:'De poppen als lotgenoot.',
