@@ -5,7 +5,7 @@ const homepageData = {
 }
 
 const poppenData23=[{
-  titel:'Sam',
+  titel:'Alex',
   description:'Motorische beperking',
   imgurl:'./img/sam.jpg'
 },{
