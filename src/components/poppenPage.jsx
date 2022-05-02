@@ -37,15 +37,20 @@ export function PoppenPage23() {
   )
 }
 export function PoppenPage4Plus(){
+  let sorteddata = poppenData4Plus;
+  sorteddata = sorteddata.sort(function (a, b) {
+    return a.titel.localeCompare(b.titel);
+  });
   return(
-
+    
     <>    
     <div className="grid lg:grid-cols-3">
       <Displaycategorien />
       </div>
     <div className="grid lg:grid-cols-3 md:grid-cols-2">
+
     
-    {poppenData4Plus.map(el => <Article {...el}/>)}
+    {sorteddata.map(el => <Article {...el}/>)}
    </div>
    
 
