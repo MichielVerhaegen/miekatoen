@@ -7,7 +7,7 @@ import './App.css';
 
 import React, {useState, useEffect} from 'react';
 import {Route,Switch} from 'react-router-dom';
-import { PoppenPagej3,PoppenPage34,PoppenPage4Plus } from './components/poppenPage';
+import { PoppenPage02,PoppenPage23,PoppenPage4Plus } from './components/poppenPage';
 import { CategoriePage } from './components/categoriePage';
 import DropDownMenu from './components/dropDownMenu.jsx'
 //imporDropDownMenu from './components/DropDownMenu';t { homepageData } from './components/mockdata';
@@ -41,8 +41,8 @@ function App() {
        <Switch>
             <Route exact path="/" component={Homepage} />
             <Route path="/categorie" component={CategoriePage} />
-            <Route path="/poppenjonger3" component={PoppenPagej3} />
-            <Route path="/poppen34" component={PoppenPage34} />
+            <Route path="/poppen02" component={PoppenPage02} />
+            <Route path="/poppen23" component={PoppenPage23} />
             <Route path="/poppen4plus" component={PoppenPage4Plus} />
             <Route path="/Visie" component={AboutPage} />
             <Route path="/Contact" component={ContactPage} />

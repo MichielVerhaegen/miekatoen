@@ -4,7 +4,7 @@ const homepageData = {
   description:"Atelier Mie Katoen is een poppenatelier gespecialiseerd in handgemaakte poppen en poppenkleding. De poppen zijn uniek, genderneutraal en hebben elk hun eigen verhaal. Het atelier kiest ervoor om poppen te maken vanuit een brede diversiteit, elk met zijn tekortkomingen en talenten."
 }
 
-const poppenData34=[{
+const poppenData23=[{
   titel:'Sam',
   description:'Motorische beperking',
   imgurl:'./img/sam.jpg'
@@ -21,7 +21,7 @@ description:'visuele beperking',
 imgurl:'./img/renee.jpg'
 }]
 
-const poppenDataj3=[{
+const poppenData02=[{
   titel:'Samj3',
   description:'Motorische beperking',
   imgurl:'./img/sam.jpg'
@@ -79,4 +79,4 @@ const aboutData=[{
   imgurl:'./img/depoppen.jpg'
 }]
 
-export{homepageData,poppenData34,poppenDataj3,poppenData4Plus,aboutData};
+export{homepageData,poppenData02,poppenData23,poppenData4Plus,aboutData};

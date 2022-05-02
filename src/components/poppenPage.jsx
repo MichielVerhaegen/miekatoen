@@ -1,8 +1,8 @@
-import { poppenDataj3,poppenData34,poppenData4Plus } from "./mockdata"
+import { poppenData02,poppenData23,poppenData4Plus } from "./mockdata"
 import { Article } from "./Article"
 import { Displaycategorien } from "./categorien"
 
-export function PoppenPagej3() {
+export function PoppenPage02() {
     return(
 
       <>
@@ -12,14 +12,14 @@ export function PoppenPagej3() {
       </div>
       <div className="grid lg:grid-cols-3 md:grid-cols-2">
       
-      {poppenDataj3.map(el => <Article {...el}/>)}
+      {poppenData02.map(el => <Article {...el}/>)}
      </div>
      
 
       </>
     )
 }
-export function PoppenPage34() {
+export function PoppenPage23() {
   return(
 
     <>    
@@ -29,7 +29,7 @@ export function PoppenPage34() {
     
     <div className="grid lg:grid-cols-3 md:grid-cols-2">
     
-    {poppenData34.map(el => <Article {...el}/>)}
+    {poppenData23.map(el => <Article {...el}/>)}
    </div>
    
 
